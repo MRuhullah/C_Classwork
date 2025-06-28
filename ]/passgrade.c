@@ -18,32 +18,32 @@ int main()
 
     if (percentage>=90 && percentage<=100)
     {
-        printf("%s has obtained %lf precent and is passing with Grade O ",name, percentage);
+        printf("%s has obtained %.2lf percent and is passing with Grade O ",name, percentage);
 
     }
     else if (percentage>=50 && percentage<60)
     {
-        printf("%s has obtained %lf precent and is passing with Grade D ",name, percentage);
+        printf("%s has obtained %.2lf percent and is passing with Grade D ",name, percentage);
 
     }
     else if (percentage>=60 && percentage<70)
     {
-        printf("%s has obtained %lf precent and is passing with Grade C ",name, percentage);
+        printf("%s has obtained %.2lf percent and is passing with Grade C ",name, percentage);
 
     }
     else if (percentage>=70 && percentage<80)
     {
-        printf("%s has obtained %lf precent and is passing with Grade B ",name, percentage);
+        printf("%s has obtained %.2lf percent and is passing with Grade B ",name, percentage);
 
     }
     else if (percentage>=80 && percentage<90)
     {
-        printf("%s has obtained %lf precent and is passing with Grade A ",name, percentage);
+        printf("%s has obtained %.2lf percent and is passing with Grade A ",name, percentage);
 
     }
     else 
     {
-        printf("%s has obtained %lf  percent and has failed ",name , percentage);
+        printf("%s has obtained %.2lf  percent and has failed ",name , percentage);
 
     }
     return 0;
