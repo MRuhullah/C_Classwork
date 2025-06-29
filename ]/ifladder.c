@@ -16,6 +16,6 @@ printf("Less than 20");
 else {
 printf("The no is 20");
 }
-printf(" Thank you for Using this program");
+ 
 return 0 ;
 }
