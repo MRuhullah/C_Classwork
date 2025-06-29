@@ -21,11 +21,10 @@ int main()
     {
         printf("Bill = Rs %lf",50*0.5 + 50*1 + 50*1.5 + (units-150)*2);
     }
-    else if (units>200)
-    {
+    else  
+    
         printf("Bill = Rs %lf",50*0.5 + 50*1 + 50*1.5 + 50*2 + (units-200)*5);
-    }
-    else{
-        printf("plz try again later");
-    }
+    
+    return 0;
 }
+    
